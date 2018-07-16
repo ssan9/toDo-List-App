@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List App</title>
+	<link rel="stylesheet" type="text/css" href="jquery-todolist-app.css">
+</head>
+<body>
+	<main role="main">
+		<header role="banner">	
+				<h1>Todo List</h1>
+		</header>
+		<form id="js-todo-list-form">
+				<label for="todo-list-entry">Add a task</label>
+				<input type="text" name="todo-list-entry" placeholder="e.g., pay bills" id="js-todo-list-entry" class="js-todo-list-entry">	
+				<button type="submit">Add task</button>
+		</form>
+		<div class="task">
+			<ul class="task-list js-task-list"></ul>	
+		</div>
+	</main>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-todolist-app.js"></script>
+</body>
+</html>
