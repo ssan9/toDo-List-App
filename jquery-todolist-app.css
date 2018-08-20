@@ -6,3 +6,7 @@ body{
 	background-color: lightblue;
 	text-align: center;
 }
+
+.task-todo_checked {
+  text-decoration: line-through;
+}
